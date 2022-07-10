@@ -12,11 +12,47 @@
     <div class="main-content">
         <h1 class="title">Arcygore's Library</h1>
         <p>Add all of your recent books and whether you've read them or not!</p>
-        <div class="add-book">+</div>
+        <button class="add-book">&plus;</button>
         <div class="book-list">
-            <div class="book">Book1Test</div>
-            <div class="book">Book2Test</div>
+            <div class="book">
+                <h3 class="book-title">Moby Dick</h2>
+                <address class="author">by Herman Melville</address>
+                <div class="num-pages">378 pages</div>
+                <div class="book-read">
+                    <label for="read">Read?</label>
+                    <input type="checkbox" name="read" id="read">
+                </div>
+            </div>
+            <div class="book">
+                <h3 class="book-title">Inferno</h2>
+                <address class="author">by Dante Alighieri</address>
+                <div class="num-pages">256 pages</div>
+                <div class="book-read">
+                    <label for="read">Read?</label>
+                    <input type="checkbox" name="read" id="read">
+                </div>
+            </div>
         </div>
+    </div>
+    <div class="overlay"></div>
+    <div class="book-popup">
+        <div class="form-item">
+            <label for="title">Title</label>
+            <input type="text" id="title">
+        </div>
+        <div class="form-item">
+            <label for="author">Author</label>
+            <input type="text" id="author">
+        </div>
+        <div class="form-item">
+            <label for="pages">Pages</label>
+            <input type="number" id="pages">
+        </div>
+        <div class="book-read">
+            <label for="new-book-read">Read?</label>
+            <input type="checkbox" name="new-book-read" id="new-book-read">
+        </div>
+        <button type="submit" class="new-book">Add Book</button>
     </div>
 </body>
 </html>
