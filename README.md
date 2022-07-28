@@ -1,5 +1,18 @@
 # odin-library
 
+------------------------ PREVIOUS PROJECT ASSIGNMENT (Classes) ---------------------------
+
+Time for completion: approximately 3 hours active time
+
+Topics learned:
+- Classes
+- "this" keyword
+
+Perfect project! Already having all of the working code from the previous constructor project by my side was fantastic for allowing me to focus solely on the Class integration into the code without having to re-do the HTML and CSS. As I stated before, my HTML and CSS need some serious work, but I've been thoroughly enjoying the JS side of things lately. I'm sure I'll go back and learn more about the layout and design some more in the near future though. I understand this was only a "lesson" and not a full on Project, but it was still a great learning opportunity that I feel really made things "click" in my head.
+
+
+------------------------ PREVIOUS PROJECT ASSIGNMENT (Constructors) ---------------------------
+
 Time for completion: 17 days - approximately 10 hours active time
 
 Topics learned:
